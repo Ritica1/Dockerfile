@@ -1,0 +1,13 @@
+sonar.projectKey=linuxussonarqube
+
+sonar.sources=.
+
+sonar.host.url=http://52.234.136.15:9000
+
+sonar.login=${env.token}
+
+sonar.javascript.lcov.reportPaths=coverage/lcov.info
+
+sonar.buildbreaker.preview.issuesSeverity=MAJOR
+
+sonar.exclusions=sonar-scanner-cli-4.2.0.1873-linux.zip,coverage/**,sonar-scanner-cli-4.2.0.1873-linux/**,node_modules/**
