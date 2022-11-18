@@ -21,5 +21,5 @@ phases:
 
 artifacts:
     files: 
-    -appsec.yml
-    -imagedefinitions.json
+    - appsec.yml
+    - imagedefinitions.json
