@@ -4,7 +4,7 @@ sonar.sources=.
 
 sonar.host.url=http://52.234.136.15:9000
 
-sonar.login=${env.token}
+sonar.login=b58e89bdca57660102fb1d971c36fdffbda1d8
 
 sonar.javascript.lcov.reportPaths=coverage/lcov.info
 
